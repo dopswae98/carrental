@@ -1,0 +1,29 @@
+.hero img{
+    height: 320px;
+}
+
+.printbase{
+    width: 100%;
+}
+
+/* gallery */
+
+.footer-left{
+    /* width: 160px;
+    height: 250px; */
+    background-color: orange;
+    /* border-radius: 50% 50% 5% 5% / 60% 60% 40% 40%; */
+    border-radius: 100% 0 0 0;
+}
+
+/* Our Stuff */
+
+.bigger img{
+    height: 250px;
+}
+
+/* FOOTER */
+
+.map img{
+    height: 300px;
+}

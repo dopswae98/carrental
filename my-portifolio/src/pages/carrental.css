@@ -1,0 +1,40 @@
+
+.nav-item .nav-link:hover{
+    color: rgb(226, 8, 8) !important;
+}
+
+.nav-item .nav-link{
+    transition: all 0.5s ease;
+    position: relative;
+}
+
+.nav-item{
+    position: relative;
+}
+
+.nav-item .nav-link:hover::before{
+    content: "";
+    position: absolute;
+    background: rgb(196, 3, 3);
+    height: 6px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 98%;
+    transition: all 2s ease;
+    transform: skew(60deg) translate(5%);
+    /* display: none; */
+}
+.nav-item .nav-link:hover::after{
+    content: "";
+    position: absolute;
+    background: rgb(196, 3, 3);
+    height: 6px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 98%;
+    transition: all 2s ease;
+    transform: skew(0deg) translate(5%);
+    /* display: none; */
+}
